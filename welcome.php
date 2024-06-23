@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Nav Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo"></a>
+            <ul class="navbar-menu">
+                <li><a href="welcome.php">Home</a></li>
+                <li><a href="welcome.php">Movies</a></li>
+                <li><a href="upcoming.html">up coming movies</a></li>
+                <li><a href="#">Genres</a></li>
+                
+            </ul>
+            <div class="navbar-search">
+                <input type="text" id="search-bar" placeholder="Search movies...">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="https://i0.wp.com/www.shikipedia.com/wp-content/uploads/2023/09/jawan-movie.jpg?fit=1280%2C720&ssl=1" >
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2023/02/split-image-of-pixar-movie-posters.jpg" >
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://media.licdn.com/dms/image/C4D12AQEIdhKfSrXLIQ/article-inline_image-shrink_1500_2232/0/1595844471591?e=1723075200&v=beta&t=EK2yEFJdJYzRQEI95VsrwrIyZkLNbrl0W78fhBorZv4" >
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div><br>
+    <div class="button-container">
+        <button class="animated-button"> movies</button>
+       <a href="telugu.html"> <button class="animated-button">Telugu</button></a>
+       <a href="tamil.html"><button class="animated-button">Tamil</button></a>
+       <a href="english.html"> <button class="animated-button">English</button></a>
+    </div>
+    <div class="poster-container">
+        <div class="poster">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4WOanFSU2veAIZhax-Ir3mB4IofsN1HjNEw&s" alt="Movie Poster 1" data-modal="modal1">
+            <p class="movie-title">83 movie</p>
+        </div>
+        <div class="poster">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-s_2JH2BY_GcdBzmT2-1PBVQhHAC1zyg-fd8_9-HRKFy0EC5W_gBN5ldoBCVi-TLKPqc&usqp=CAU" alt="Movie Poster 2" data-modal="modal2">
+            <p class="movie-title">Pushpa</p>
+        </div>
+        <div class="poster">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpYDbOT3xF0NS2uMzYBTaCrU9sJnh6M2vlPw&s" alt="Movie Poster 3" data-modal="modal3">
+            <p class="movie-title">Seven</p>
+        </div>
+        <div class="poster">
+            <img src="https://www.movieposters.com/cdn/shop/products/c104f1bfed20481f35bc96cb9addc940_240x360_crop_center.progressive.jpg?v=1573588574" alt="Movie Poster 4" data-modal="modal4">
+            <p class="movie-title">Titanic</p>
+        </div>
+        <div class="poster">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/adventure-movie-poster-template-design-7b13ea2ab6f64c1ec9e1bb473f345547_screen.jpg?ts=1636999411" alt="Movie Poster 5" data-modal="modal5">
+            <p class="movie-title">Archery</p>
+        </div>
+        <div class="poster">
+            <img src="https://i.redd.it/ee-madya-telugu-movie-posters-gamanisthe-asalu-oka-cinema-v0-k8lynyblmlra1.jpg?width=219&format=pjpg&auto=webp&s=e3959d08077c90e552d2de1710f694f28f521f8a" alt="Movie Poster 6" data-modal="modal6">
+            <p class="movie-title">Dasara</p>
+        </div>
+        <div class="poster">
+            <img src="https://e1.pxfuel.com/desktop-wallpaper/362/443/desktop-wallpaper-varun-tej-valmiki-movie-first-look-ultra-posters-telugu-movie-poster-thumbnail.jpg" alt="Movie Poster 7" data-modal="modal7">
+            <p class="movie-title">Valmike</p>
+        </div>
+        <div class="poster">
+            <img src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2023/03/22/Tollywood-Movie-Posters-with-Ugadi-2023-Wishes-18.jpeg?fit=1072%2C1500&quality=80&zoom=1&ssl=1?v=1679483896" alt="Movie Poster 8" data-modal="modal8">
+            <p class="movie-title">Ooru Peru Bhairavakona</p>
+        </div>
+        <div class="poster">
+            <img src="https://i.pinimg.com/originals/71/67/46/7167465dc964ac78d5e0e5b7c4d13dc6.jpg" alt="Movie Poster 9" data-modal="modal9">
+            <p class="movie-title">Revehl</p>
+        </div>
+        <div class="poster">
+            <img src="https://i.pinimg.com/736x/a3/84/d8/a384d8d8458d5ff48332f4fab9a98165.jpg" alt="Movie Poster 10" data-modal="modal10">
+            <p class="movie-title">Power</p>
+        </div>
+        <div class="poster">
+            <img src="https://pbs.twimg.com/media/Erxio2HVQAcyYUj.jpg:large" alt="Movie Poster 11" data-modal="modal11">
+            <p class="movie-title">Pogaru</p>
+        </div>
+        <div class="poster">
+            <img src="https://static.toiimg.com/thumb/imgsize-23456,msid-71832899,width-600,resizemode-4/71832899.jpg" alt="Movie Poster 12" data-modal="modal12">
+            <p class="movie-title">Visil</p>
+        </div>
+        <div class="poster">
+            <img src="https://preview.redd.it/some-really-great-tamil-movie-posters-drop-what-yall-think-v0-uapoavizu7xa1.jpg?width=465&format=pjpg&auto=webp&s=e2848bbecaa27bfe1c8a004d281d6ccf8c7edd0a" alt="Movie Poster 13" data-modal="modal13">
+            <p class="movie-title">Kabali</p>
+        </div>
+        <div class="poster">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-s_2JH2BY_GcdBzmT2-1PBVQhHAC1zyg-fd8_9-HRKFy0EC5W_gBN5ldoBCVi-TLKPqc&usqp=CAU" alt="Movie Poster 14" data-modal="modal14">
+            <p class="movie-title">Pushpa</p>
+        </div>
+        <div class="poster">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3x2kvjdekXww5UsKBecRKvJlbcWSAiUAaHA&s" alt="Movie Poster 15" data-modal="modal15">
+            <p class="movie-title">Hello</p>
+        </div>
+        <div class="poster">
+            <img src="https://filmyspace.in/wp-content/uploads/2022/01/VIP-300x300.jpeg" alt="Movie Poster 16" data-modal="modal16">
+            <p class="movie-title">VIP</p>
+        </div>
+        <div class="poster">
+            <img src="https://static.moviecrow.com/gallery/20210413/184987-Ey2u5gRVIAQcnOc.jpg" alt="Movie Poster 17" data-modal="modal17">
+            <p class="movie-title">Varudu Kaavalenu</p>
+        </div>
+        <div class="poster">
+            <img src="https://i.ebayimg.com/images/g/rTUAAOSwFaRkfzZ8/s-l1200.jpg" alt="Movie Poster 18" data-modal="modal18">
+            <p class="movie-title">QUANTUMANIA</p>
+        </div>
+    </div>
+    
+    <!-- Modal Templates -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>83 movie details...</p>
+        <div class="video-container">
+      <iframe width="468" height="250" src="https://www.youtube.com/embed/uZIjuqZYTWg" title="Ranveer singh 83 full movie | ranveer singh 83 full hindi movie | ranveer singh 83 hindi full movie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <a href="image.jpg" download="83.jpg">
+    <button id="mybutton">Download (1.0GB)</button></a><br>
+      </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Pushpa movie details...</p>
+        <div class="video-container">
+        <iframe width="468" height="250" src="https://www.youtube.com/embed/Q1NKMPhP8PY" title="Pushpa Official Trailer | Allu Arjun | Rashmika | Fahadh Faasil | Sukumar | DSP | 17th Dec" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <a href="image.jpg" download="83.jpg">
+        <button id="mybutton">Download (1.0GB)</button></a><br>
+      </div>
+    </div>
+    
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Seven movie details...</p>
+        <div class="video-container">
+        <iframe width="468" height="250" src="https://www.youtube.com/embed/cI_kBpcdcJs" title="Seven Kannada Suspense Thriller Full Movie | Regina Cassandra | Rahman | Nandita Swetha | Havish" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <a href="image.jpg" download="83.jpg">
+        <button id="mybutton">Download (1.0GB)</button></a><br>
+      </div>
+    </div>
+    
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Titanic movie details...</p>
+        <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/F2RnxZnubCM" title="Titanic • My Heart Will Go On • Celine Dion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <a href="image.jpg" download="83.jpg">
+        <button id="mybutton">Download (1.0GB)</button></a><br>
+      </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>ARCHER movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/2a3cXxB8wCU" title="Judge Archer  Chinese Movie in Telugu Dubbed Full Action, HD | Yang Song &amp; Chenghui Yu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal6" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>DASARA movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/VCgYsxbhMx4" title="latest Telugu movie||Full length telugu movie||Nani||Keerthi Suresh||Dasara" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal7" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>valmike movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/740AEtHZJRE" title="Gaddalakonda Ganesh Telugu Full HD Movie || Varun Tej Super Hit Action Comedy Movie || Matinee Show" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal8" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Ooru Peru Bhairavakona movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/8FOG4vhc8q8" title="Nijame Ne Full Video| Ooru Peru Bhairavakona |Sundeep Kishan | Sid Sriram | VI Anand| ShekarChandra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      <div id="modal9" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>revehl movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/CX51UtLn4LU" title="The Last Revel- Engine Trouble" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal10" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>power movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/0KzrYqhHoI8" title="Power Tamil Full Movie | Puneeth | Tamil movie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal11" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Seven movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/nMYS0RCzefE" title="Pogaru Telugu Full Movie HD | Dhruva Sarja | Rashmika Mandanna | Telugu Films" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>bigil movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/MbUJAbVyeMs" title="Whistle Full HD Movie | Vijay Thalapathy | Nayanthara | Jackie Shroff | TFC Cinemalu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      <div id="modal13" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>kabali movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/vX_b7HZL-78" title="Rajnikanth Full Action Movie Kabali In Hindi Dubbed | Kabali Full Movie In hindi dubbed | Rajnikanth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal14" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Pushpa movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/803l9Wz_XFY" title="Hello Title Video Song | Hello Video Songs | Akhil Akkineni, Kalyani Priyadarshan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal15" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>hello movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/803l9Wz_XFY" title="Hello Title Video Song | Hello Video Songs | Akhil Akkineni, Kalyani Priyadarshan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal16" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>VIP movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/t197BhimicA" title="Raghuvaran B.Tech Latest Telugu Movie || Dhanush, Amala Paul, Saranya Ponvannan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      <div id="modal17" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>varudu kaavalenu movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/XWrcuzPwN1w" title="Varudu Kaavalenu Telugu Full Length Movie || Naga Shaurya || Ritu Varma || Nadhiya || Cinima Nagar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal18" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>ant-man movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/ey_5lVcwZW8" title="Ant-Man and the Wasp: Quantumania (2023) Full Movie | New Movie Hindi Dubbed 2023 Full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div><br>
+    <script>
+        document.getElementById('search-bar').addEventListener('keyup', function() {
+            var input = document.getElementById('search-bar').value.toLowerCase();
+            var posters = document.querySelectorAll('.poster');
+            
+            posters.forEach(function(poster) {
+                var title = poster.querySelector('.movie-title').innerText.toLowerCase();
+                if (title.includes(input)) {
+                    poster.style.display = '';
+                } else {
+                    poster.style.display = 'none';
+                }
+            });
+        });
+        // Get all the images
+    var posters = document.querySelectorAll(".poster img");
+
+    // Iterate over each poster
+    posters.forEach(function(poster) {
+        poster.onclick = function() {
+            var modalId = poster.getAttribute("data-modal");
+            var modal = document.getElementById(modalId);
+            modal.classList.add("show");
+            document.querySelector(`#${modalId} .modal-content`).classList.add("show");
+        }
+    });
+
+    // Get all <span> elements that close the modals
+    var spans = document.querySelectorAll(".close");
+
+    // Iterate over each <span> to set up the close function
+    spans.forEach(function(span) {
+        span.onclick = function() {
+            var modal = span.closest(".modal");
+            modal.classList.remove("show");
+            modal.querySelector(".modal-content").classList.remove("show");
+        }
+    });
+
+    // When the user clicks anywhere outside of a modal, close it
+    window.onclick = function(event) {
+        if (event.target.classList.contains("modal")) {
+            event.target.classList.remove("show");
+            event.target.querySelector(".modal-content").classList.remove("show");
+        }
+    }
+    </script>
+        <footer>
+            <p>@vamsi krishna movie web page</p>
+        </footer>
+       
+        
+    <script src="scrip.js"></script>
+</body>
+</html>

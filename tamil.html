@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Nav Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">MovieDB</a>
+            <ul class="navbar-menu">
+                <li><a href="welcome.php">Home</a></li>
+                <li><a href="welcome.php">Movies</a></li>
+                <li><a href="upcoming.html">upcomming</a></li>
+                <li><a href="#">Genres</a></li>
+            </ul>
+            <div class="navbar-search">
+                <input type="text" id="search-bar" placeholder="Search movies...">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+   
+    <div class="heading">
+        <h1>Tamil movies</h1>
+    </div><br><br><br><br><br>
+    <div class="button-container">
+        <a href="welcome.php"><button class="animated-button">Movies</button></a>
+        <a href="telugu.html"><button class="animated-button">Telugu</button></a>
+        <a href="tamil.html"><button class="animated-button">Tamil</button></a>
+        <a href="english.html"> <button class="animated-button">English</button></a>
+    </div><br>
+    <div class="poster-container">
+        <div class="poster">
+            <img src="https://i.redd.it/some-really-great-tamil-movie-posters-drop-what-yall-think-v0-uapoavizu7xa1.jpg?width=465&format=pjpg&auto=webp&s=e2848bbecaa27bfe1c8a004d281d6ccf8c7edd0a" alt="Movie Poster 1" data-modal="modal1">
+            <p class="movie-title">Kabali</p>
+        </div>
+        <div class="poster">
+            <img src="https://i.redd.it/some-really-great-tamil-movie-posters-drop-what-yall-think-v0-ch1d4xizu7xa1.jpg?width=443&format=pjpg&auto=webp&s=fe2b694dc9566d10f40e905ea89fd40396ebe530" alt="Movie Poster 2"data-modal="modal2">
+            <p class="movie-title">Maanaadu</p>
+        </div>
+        <div class="poster">
+            <img src="https://i.pinimg.com/736x/bb/9d/55/bb9d55e3044e8a0feca3fd1a90e5ba43.jpg" alt="Movie Poster 1"data-modal="modal3">
+            <p class="movie-title">Bigil</p>
+        </div>
+        <div class="poster">
+            <img src="https://static.toiimg.com/photo/95668868.cms" alt="Movie Poster 2"data-modal="modal4">
+            <p class="movie-title">Thookudhurai</p>
+        </div>
+        <div class="poster">
+            <img src="https://media.assettype.com/tnm%2Fimport%2Fsites%2Fall%2Fvar%2Fwww%2Fimages%2FOKKanmani_poster.jpg" alt="Movie Poster 1"data-modal="modal5">
+            <p class="movie-title">OK Kanmani</p>
+        </div>
+        <div class="poster">
+            <img src="https://1.bp.blogspot.com/-3AKWg15aWkc/VHImoJqQCcI/AAAAAAAC1XU/oLQjuM4vKZ8/s1600/i%2Bmovie%2Bposter.jpg" alt="Movie Poster 2"data-modal="modal6">
+            <p class="movie-title">I</p>
+        </div>
+        <div class="poster">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjgwZGI2OTMtMTQwMi00YzllLTgxMTAtODBkOTFlZDA1MjA2XkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_.jpg" alt="Movie Poster 1"data-modal="modal7">
+            <p class="movie-title">Maya</p>
+        </div>
+        <div class="poster">
+            <img src="https://i.pinimg.com/736x/b4/ca/6e/b4ca6e03f10a638656935a226ec6a5eb.jpg" alt="Movie Poster 2"data-modal="modal8">
+            <p class="movie-title">Vikram</p>
+        </div>
+    </div>
+    <!-- Modal Templates -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>kabali movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/HfRQOc9WgnY" title="Kabali Telugu Movie | Official Teaser | Rajinikanth | Radhika Apte | Pa Ranjith" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+    
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>maanadu movie details...</p>
+        <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/ng82AdciU48" title="The Loop Official Telugu Trailer | STR | SJ Suryah | Kalyani |  Venkat Prabhu | YSR | V House" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <a href="image.jpg" download="83.jpg">
+        <button id="mybutton">Download (1.0GB)</button></a><br>
+      </div>
+    </div>
+    
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>I movie details...</p>
+        <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/4rnNzBZMqkQ" title="Whistle - Telugu Trailer | Thalapathy Vijay, Nayanthara | @ARRahman  | Atlee | AGS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <a href="image.jpg" download="83.jpg">
+        <button id="mybutton">Download (1.0GB)</button></a><br>
+      </div>
+    </div>
+    
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>thookudurai movie details...</p>
+        <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/T4CSrcvDvUM" title="Thookudurai - Official Teaser | Yogibabu | Ineya | Motta Rajendran | Mahesh | Dennis Manjunath" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <a href="image.jpg" download="83.jpg">
+        <button id="mybutton">Download (1.0GB)</button></a><br>
+      </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>virupaksha movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/XT9Bv7JkG-I" title="Virupaksha - Nachavule Nachavule Lyric | Sai Dharam Tej, Samyuktha, SukumarB, KarthikDandu, Ajaneesh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal6" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>dasara movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/Hx2kUN2kd1c" title="Ori Vaari - Video Song | Dasara | Nani | Keerthy Suresh | Santhosh Narayanan | Srikanth Odela" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      <div id="modal7" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>valmike movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/740AEtHZJRE" title="Gaddalakonda Ganesh Telugu Full HD Movie || Varun Tej Super Hit Action Comedy Movie || Matinee Show" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+      
+      <div id="modal8" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Ooru Peru Bhairavakona movie details...</p>
+          <div class="video-container">
+            <iframe width="468" height="250" src="https://www.youtube.com/embed/8FOG4vhc8q8" title="Nijame Ne Full Video| Ooru Peru Bhairavakona |Sundeep Kishan | Sid Sriram | VI Anand| ShekarChandra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="image.jpg" download="83.jpg">
+          <button id="mybutton">Download (1.0GB)</button></a><br>
+        </div>
+      </div>
+  
+    <br>
+    <footer>
+        <p>@vamsi krishna movie web page</p>
+    </footer>
+    <script>
+        document.getElementById('search-bar').addEventListener('keyup', function() {
+            var input = document.getElementById('search-bar').value.toLowerCase();
+            var posters = document.querySelectorAll('.poster');
+            
+            posters.forEach(function(poster) {
+                var title = poster.querySelector('.movie-title').innerText.toLowerCase();
+                if (title.includes(input)) {
+                    poster.style.display = '';
+                } else {
+                    poster.style.display = 'none';
+                }
+            });
+        });
+        document.getElementById('search-bar').addEventListener('keyup', function() {
+            var input = document.getElementById('search-bar').value.toLowerCase();
+            var posters = document.querySelectorAll('.poster');
+            
+            posters.forEach(function(poster) {
+                var title = poster.querySelector('.movie-title').innerText.toLowerCase();
+                if (title.includes(input)) {
+                    poster.style.display = '';
+                } else {
+                    poster.style.display = 'none';
+                }
+            });
+        });
+        // Get all the images
+    var posters = document.querySelectorAll(".poster img");
+
+    // Iterate over each poster
+    posters.forEach(function(poster) {
+        poster.onclick = function() {
+            var modalId = poster.getAttribute("data-modal");
+            var modal = document.getElementById(modalId);
+            modal.classList.add("show");
+            document.querySelector(`#${modalId} .modal-content`).classList.add("show");
+        }
+    });
+
+    // Get all <span> elements that close the modals
+    var spans = document.querySelectorAll(".close");
+
+    // Iterate over each <span> to set up the close function
+    spans.forEach(function(span) {
+        span.onclick = function() {
+            var modal = span.closest(".modal");
+            modal.classList.remove("show");
+            modal.querySelector(".modal-content").classList.remove("show");
+        }
+    });
+
+    // When the user clicks anywhere outside of a modal, close it
+    window.onclick = function(event) {
+        if (event.target.classList.contains("modal")) {
+            event.target.classList.remove("show");
+            event.target.querySelector(".modal-content").classList.remove("show");
+        }
+    }
+    </script>
+</body>
+</html>
